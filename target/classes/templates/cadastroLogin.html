@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aligator Store</title>
+<link rel="icon" href="assets/sloga.png">
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+	<header class="cabecalho">
+		<nav class="cabecalho__menu">
+			<a class="cabecalho__menu__link" href="/">Home</a> 
+			<a class="cabecalho__menu__link" href="/about">Sobre nós</a> 
+			<a class="cabecalho__menu__link" href="/cadastroLogin">Cadastro</a>
+		</nav>
+	</header>
+	<div class="container">
+
+		<img src="assets/perfil.png">
+
+		<form>
+
+			<div>
+				<input class="email" type="text" name="email" id="email"
+					placeholder="Digite seu e-mail">
+			</div>
+
+			<div>
+				<input class="senha" type="password" name="senha" id="senha"
+					placeholder="Digite sua senha">
+			</div>
+
+			<div> 
+				<a class="submit" href="/cadastro" ><input class="submit" type="button" value="Logar"></a>
+				<!-- <input class="submit" type="button" value="Logar"> -->
+			</div>
+
+		</form>
+
+	</div>
+	<img src="./assets/front.png" class="left-login-imagem"
+		alt="Aligator Store">
+
+	<footer class="rodape">
+		<p>Desenvolvido por Aligator.</p>
+	</footer>
+</body>
+
+</html>
