@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<div class="alert alert-sucess alert.dimissible" role="alert" th:if="${not #strings.isEmpty(mensagem)}">
+	<div id="signup-response" class="alert alert-sucess alert.dimissible" role="alert" th:if="${not #strings.isEmpty(mensagem)}">
 	
 		<span th:text="${mensagem}"></span>
 	</div>
